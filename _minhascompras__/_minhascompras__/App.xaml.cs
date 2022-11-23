@@ -36,7 +36,7 @@ namespace _minhascompras__
 
             Thread.CurrentThread.CurrentCulture = new CultureInfo("pt-BR");
 
-            MainPage = new NavigationPage(new View.Listagem());
+            MainPage = new NavigationPage(new View.Listagem()) { BarBackgroundColor = Color.FromHex("#322c8e"), BarTextColor = Color.White };
         }
 
         protected override void OnStart()
