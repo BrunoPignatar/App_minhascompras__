@@ -28,7 +28,7 @@ namespace _minhascompras__.View
         {
             double soma = lista_produtos.Sum(i => i.PrecoTotal);
 
-            DisplayAlert("Total é: ", soma.ToString("C"), "OK");
+            DisplayAlert("Total: ", soma.ToString("C"), "OK");
         }
 
         private void ToolbarItem_Clicked_1(object sender, EventArgs e)

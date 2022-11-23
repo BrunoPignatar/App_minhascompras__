@@ -5,12 +5,12 @@
     <Application.Resources>
 
         <Style TargetType="NavigationPage">
-            <Setter Property="BackgroundColor" Value="#edf2f4" />
+            <Setter Property="BackgroundColor" Value="#f2f2f2" />
             <Setter Property="Padding" Value="15" />
         </Style>
 
         <Style TargetType="Frame">
-            <Setter Property="BackgroundColor" Value="#FFF" />
+            <Setter Property="BackgroundColor" Value="#ebe54d" />
             <Setter Property="HasShadow" Value="True" />
             <Setter Property="CornerRadius" Value="5" />
             <Setter Property="Padding" Value="10" />

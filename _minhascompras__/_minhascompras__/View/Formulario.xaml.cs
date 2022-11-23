@@ -39,12 +39,12 @@ namespace _minhascompras__.View
                 if (p.Id == 0)
                 {
                     await App.Db.Insert(p);
-                    await DisplayAlert("Deu Certo!", "Produto Inserido", "OK");
+                    await DisplayAlert("Sucesso!", "Item Inserido", "OK");
                 }
                 else
                 {
                     await App.Db.Update(p);
-                    await DisplayAlert("Deu Certo!", "Produto Atualizado", "OK");
+                    await DisplayAlert("Sucesso!", "Item Atualizado", "OK");
                 }
 
                 await Navigation.PopAsync();
