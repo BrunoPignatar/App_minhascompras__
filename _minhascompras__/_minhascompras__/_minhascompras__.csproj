@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Helper\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Update="View\Formulario.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
